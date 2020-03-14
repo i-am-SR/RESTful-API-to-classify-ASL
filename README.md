@@ -1,6 +1,5 @@
-# RESTful_API_to_classify_ASL-
+**Creating a RESTful API to classify American Sign Language gestures**
 (Part 2 of the mobile computing project)
-Creating a RESTful API to classify American Sign Language gestures 
 
 **Details:**
 
