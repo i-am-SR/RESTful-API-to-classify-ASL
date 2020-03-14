@@ -2,6 +2,25 @@
 (Part 2 of the mobile computing project)
 Creating a RESTful API to classify American Sign Language gestures 
 
+**Details:**
+
+• Developed an online Application Service that accepts Human Pose Skeletal key points of a sign video and returns the label of the sign as a JSON Response. The Key points are generated using TensorFlow’s Pose Net.
+• Using these key points, developed 4 machine learning models that can classify the American Sign Language signs { gift, car, sell, book, total, movie }.
+• For generating the key points, followed instructions in the link -> https://github.com/prashanthnetizen/posenet_nodejs_setup
+• For the dataset, we used the videos captured as part of your first assignment (https://github.com/i-am-SR/CSE_535_Mobile_Computing). 
+• The JSON input given to the service follows the format of the output given by the JavaScript file mentioned in the GitHub repo.
+• The output of the service is given as a JSON response for each input JSON video data in the following format.
+{
+“1”: “predicted_label”,
+“2”: “predicted_label”,
+“3”: “predicted_label”,
+“4”: “predicted_label”
+}
+where 1 to 4 denotes the index of your ML models,
+“predicted_label” is the predicted sign.
+• We hosted our service using AWS EC2 cloud platform
+
+
 The keypoints from the posenet are in Json format. We cannot just feed the data into the
 machine learning algorithms and expect the algorithms to learn the actions. The data is needed
 to be cleaned and normalized. We call it data pre-processing. Data preprocessing is done as
