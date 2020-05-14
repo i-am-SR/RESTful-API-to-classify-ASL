@@ -1,5 +1,8 @@
-**Creating a RESTful API to classify American Sign Language gestures**
+﻿**Creating a RESTful API to classify American Sign Language gestures**
 (Part 2 of the mobile computing project)
+
+**The first phase of this project can be found here: https://github.com/i-am-SR/Mobile-Computing-Project-Android-App**
+
 
 **Details:**
 
